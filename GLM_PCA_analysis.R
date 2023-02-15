@@ -66,12 +66,12 @@ cbind(PC_val, mse_glmpca)
 plot(PC_val, mse_glmpca, type = "l")
 
 # Best
-Y_obs_or <- matrix(NA, nrow = NROW(Y_or), ncol = NCOL(Y_or))
+Y_obs <- matrix(NA, nrow = NROW(Y_or), ncol = NCOL(Y_or))
 y_obs_array <- Y_or[ind_obs]
 for (i in 1:NROW(ind_obs)) {
-  Y_obs_or[ind_obs[i,1], ind_obs[i,2]] <- y_obs_array[i]
+  Y_obs[ind_obs[i,1], ind_obs[i,2]] <- y_obs_array[i]
 }
-Y_obs <- t(Y_obs_or)
+Y_obs <- t(Y_obs)
 N <- NROW(Y_obs)
 P <- NCOL(Y_obs)
 res <- matrix(NA, N, P)
