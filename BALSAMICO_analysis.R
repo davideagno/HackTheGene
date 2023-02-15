@@ -32,6 +32,7 @@ for (i in 1:NROW(ind_train)) {
 Y_train <- t(Y_train_or)
 mse <- function(pred, obs) sum((pred - obs)^2) / length(pred)
 
+# devtools::install_github("abikoushi/BALSAMICO")
 library(BALSAMICO)
 N <- NROW(Y_train)
 K <- NCOL(Y_train)
