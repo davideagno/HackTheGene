@@ -1,6 +1,6 @@
 # HackTheGene
 Code and data from the HackTheGene competition. The details are available in [[2]](#2)
-- BALSAMICO_analysis.R contains the code for the analysis made with BALSAMICO model of [[1]](#1).
+- [BALSAMICO_analysis.R](HackTheGene/BALSAMICO_analysis.R) contains the code for the analysis made with BALSAMICO model of [[1]](#1).
 - GLM_PCA_analysis.R contains the code for the analysis made with GLM-PCA model of [[3]](#3).
 - RCF_analysis_tuning.R contains the code for the tuning procedure made with RCF.
 - RCF_analysis_best.R contains the code for the imputation of missing values using RCF.
