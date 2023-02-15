@@ -65,3 +65,4 @@ pred <- res$W %*% res$H
 pred_na <- t(pred)[ind_na]
 true_na <- Y_oracle[ind_na]
 mse(pred_na, true_na)
+
