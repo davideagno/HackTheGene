@@ -1,10 +1,4 @@
 
-# Covariates for samples: dataframe, 2774 obs, 7 variables
-cc <- read.csv("covariates_col.csv")
-# Discard ID_Sample, Body_Site, Sample_SRS
-cc <- cc[, -c(1,5,7)]
-X <- model.matrix(~ cc$N_Visita + cc$Sesso + cc$Centro_Seq + cc$Sottosito_Corporeo)
-
 # Response: matrix, dimension OTU x Samples (2771x2774)
 Y_or <- read.csv("counts.csv", row.names = 1)
 # Transpose it for Balsamico library
