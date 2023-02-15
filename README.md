@@ -6,7 +6,7 @@ Code and data from the HackTheGene competition. The details are available in [[2
 - [RCF_analysis_best.R](https://github.com/davideagno/HackTheGene/blob/main/RCF_analysis_best.R) contains the code for the imputation of missing values using RCF.
 - [counts.csv](https://github.com/davideagno/HackTheGene/blob/main/counts.csv) contains the dataset of the competition - i.e., with the missing values.
 - [counts_complete.csv](https://github.com/davideagno/HackTheGene/blob/main/counts_complete.csv) contains the full observed matrix.
-- [covariates.csv](https://github.com/davideagno/HackTheGene/blob/main/covariates.csv) contains the covariates for the samples and the OTUs.
+- [covariates.csv](https://github.com/davideagno/HackTheGene/blob/main/covariates.csv) contains the covariates for the samples.
 
 ### References
 <a id="1">[1]</a> 
